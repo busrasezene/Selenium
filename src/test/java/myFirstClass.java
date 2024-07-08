@@ -1,3 +1,5 @@
+/*Selenium WebDriver ve WebDriverManager kullanarak IntelliJ IDEA'da tarayıcı otomasyonu gerçekleştirdim; Web sayfalarında gezinti, başlık doğrulama,
+ve URL kontrolü gibi işlemleri otomatikleştirdim*/
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
