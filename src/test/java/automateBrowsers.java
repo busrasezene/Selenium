@@ -1,3 +1,4 @@
+/*Selenium WebDriver ve WebDriverManager kullanarak Chrome, Edge ve Safari tarayıcılarında otomasyon senaryoları gerçekleştirdim.*/
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
