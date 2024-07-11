@@ -38,6 +38,24 @@ public class myFirstClass {
         udemyUrl = driver.getCurrentUrl();
         System.out.println("Udemy url is:" + udemyUrl);
         
-        driver.quit();
+        driver.quit(); 
+
+        
     }
-}
+}                              
+
+WebDriverManager.chromedriver().setup();
+        //Kurulum
+        WebDriver driver = new ChromeDriver();
+        //Web sitesini açmak için
+        driver.get("https://the-internet.herokuapp.com/login");
+        //Komut dosyasını her adımdan sonra çalıştırmalıyız.
+        //Run ile çalıştırıyoruz.
+        driver.findElement(By.id("username")).sendKeys("tomsmith");
+        //Username kısmına tomsmith yazar.
+        driver.findElement(By.id("password")).sendKeys("SuperSecretPassword!");
+        //password kısmına parolayı yazar.
+        driver.findElement(By.className("radius")).click();
+        //oturum açma fonksiyonunu doğrulamak (Login butonu)
+        driver.quit();
+        //Tarayıcıyı kapatır
